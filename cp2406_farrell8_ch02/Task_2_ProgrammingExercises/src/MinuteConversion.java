@@ -11,29 +11,28 @@ public class MinuteConversion {
         Scanner input = new Scanner(System.in);
 
         while (!valid) {
-            System.out.print("Enter a value in nautical miles to convert: ");
+            System.out.print("Enter the number of minutes: ");
             try {
                 numMinutes = Integer.parseInt(input.next());
                 valid = true;
             } catch (NumberFormatException e) {
                 System.out.println("invalid input, try again...");
             }
-        }
 
-        while (numMinutes<=0){
-            System.out.println("invalid input, try again...");
-            valid = false;
-            while (!valid) {
-                System.out.print("Enter a value in nautical miles to convert: ");
+            while (valid && numMinutes<=0){
+                System.out.println("number of minutes must be greater than zero");
+                System.out.print("Enter the number of minutes: ");
                 try {
                     numMinutes = Integer.parseInt(input.next());
                     valid = true;
                 } catch (NumberFormatException e) {
                     System.out.println("invalid input, try again...");
-                    System.out.print("Enter a value in nautical miles to convert: ");
+                    System.out.print("Enter the number of minutes: ");
                 }
+
             }
         }
+
 
         double numHours = numMinutes/60;
         double numDays = numHours/24;
