@@ -14,20 +14,18 @@ public class QuartsToGallonsInteractive {
 
         int price = 0;
 
-        while (!valid) {
+        while (!valid)  {
             System.out.print("Enter a price (for the job) in quarts: ");
+
             try {
                 price = Integer.parseInt(input.next());
                 valid = true;
             } catch (NumberFormatException e) {
                 System.out.println("invalid input, try again...");
             }
-        }
 
-        while (price<0){
-            System.out.println("Must enter number greater than 0: ");
-            valid = false;
-            while (!valid) {
+            while (valid && price <= 0){
+                System.out.println("price must be greater than zero");
                 System.out.print("Enter a price (for the job) in quarts: ");
                 try {
                     price = Integer.parseInt(input.next());

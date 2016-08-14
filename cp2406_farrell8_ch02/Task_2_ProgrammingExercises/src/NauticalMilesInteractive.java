@@ -14,7 +14,7 @@ public class NauticalMilesInteractive {
 
         Scanner input = new Scanner(System.in);
 
-        while (!valid) {
+        while (!valid)  {
             System.out.print("Enter a value in nautical miles to convert: ");
             try {
                 nauticalMiles = Double.parseDouble(input.next());
@@ -22,19 +22,15 @@ public class NauticalMilesInteractive {
             } catch (NumberFormatException e) {
                 System.out.println("invalid input, try again...");
             }
-        }
 
-        while (nauticalMiles<0){
-            System.out.println("Must enter number greater than 0: ");
-            valid = false;
-            while (!valid) {
+            while (valid && nauticalMiles <= 0){
+                System.out.println("number must be greater than zero");
                 System.out.print("Enter a value in nautical miles to convert: ");
                 try {
                     nauticalMiles = Double.parseDouble(input.next());
                     valid = true;
                 } catch (NumberFormatException e) {
                     System.out.println("invalid input, try again...");
-                    System.out.print("Enter a value in nautical miles to convert: ");
                 }
             }
         }

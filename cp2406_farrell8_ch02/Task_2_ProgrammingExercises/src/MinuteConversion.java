@@ -10,6 +10,16 @@ public class MinuteConversion {
 
         Scanner input = new Scanner(System.in);
 
+        while (!valid) {
+            System.out.print("Enter a value in nautical miles to convert: ");
+            try {
+                numMinutes = Integer.parseInt(input.next());
+                valid = true;
+            } catch (NumberFormatException e) {
+                System.out.println("invalid input, try again...");
+            }
+        }
+
         while (numMinutes<=0){
             System.out.println("invalid input, try again...");
             valid = false;
