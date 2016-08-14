@@ -12,17 +12,7 @@ public class QuartsToGallonsInteractive {
         boolean valid = false;
         Scanner input = new Scanner(System.in);
 
-        //print the request
-        System.out.print("Enter a price (for the job) in quarts: ");
         int price = 0;
-
-        try {
-            price = Integer.parseInt(input.next());
-            valid = true;
-        } catch (NumberFormatException error) {
-            System.out.println("invalid input, try again...");
-            System.out.print("Enter a price (for the job) in quarts: ");
-        }
 
         while (!valid) {
             System.out.print("Enter a price (for the job) in quarts: ");
@@ -31,7 +21,6 @@ public class QuartsToGallonsInteractive {
                 valid = true;
             } catch (NumberFormatException e) {
                 System.out.println("invalid input, try again...");
-                System.out.print("Enter a price (for the job) in quarts: ");
             }
         }
 
@@ -45,7 +34,6 @@ public class QuartsToGallonsInteractive {
                     valid = true;
                 } catch (NumberFormatException e) {
                     System.out.println("invalid input, try again...");
-                    System.out.print("Enter a price (for the job) in quarts: ");
                 }
             }
         }
