@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuartsToGallonsInteractive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuartsToGallonsInteractive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task_2_ProgrammingExercises/src/QuartsToGallonsInteractive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="615">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +53,18 @@
       <file leaf-file-name="NauticalMilesInteractive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task_2_ProgrammingExercises/src/NauticalMilesInteractive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="424">
+              <caret line="39" column="9" selection-start-line="16" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinuteConversion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Task_2_ProgrammingExercises/src/MinuteConversion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -99,6 +109,7 @@
         <option value="$PROJECT_DIR$/Task_2_ProgrammingExercises/src/NauticalMiles.java" />
         <option value="$PROJECT_DIR$/Task_2_ProgrammingExercises/src/NauticalMilesInteractive.java" />
         <option value="$PROJECT_DIR$/Task_2_ProgrammingExercises/src/QuartsToGallonsInteractive.java" />
+        <option value="$PROJECT_DIR$/Task_2_ProgrammingExercises/src/MinuteConversion.java" />
       </list>
     </option>
   </component>
@@ -216,22 +227,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.QuartsToGallonsInteractive">
-    <configuration default="false" name="DebugTwo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="DebugTwo2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="cp2406_farrell8_ch02" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MinuteConversion">
     <configuration default="false" name="QuartsToGallons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="QuartsToGallons" />
@@ -280,6 +276,21 @@
     <configuration default="false" name="NauticalMilesInteractive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NauticalMilesInteractive" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Task_2_ProgrammingExercises" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MinuteConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MinuteConversion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -537,19 +548,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DebugTwo2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.QuartsToGallons" />
-      <item index="2" class="java.lang.String" itemvalue="Application.QuartsToGallonsInteractive" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NauticalMiles" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NauticalMilesInteractive" />
+      <item index="0" class="java.lang.String" itemvalue="Application.QuartsToGallons" />
+      <item index="1" class="java.lang.String" itemvalue="Application.QuartsToGallonsInteractive" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NauticalMiles" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NauticalMilesInteractive" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MinuteConversion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.QuartsToGallonsInteractive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NauticalMilesInteractive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NauticalMiles" />
-        <item index="3" class="java.lang.String" itemvalue="Application.QuartsToGallons" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DebugTwo2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MinuteConversion" />
+        <item index="1" class="java.lang.String" itemvalue="Application.QuartsToGallonsInteractive" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NauticalMilesInteractive" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NauticalMiles" />
+        <item index="4" class="java.lang.String" itemvalue="Application.QuartsToGallons" />
       </list>
     </recent_temporary>
   </component>
@@ -717,21 +728,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Task_2_ProgrammingExercises/src/QuartsToGallonsInteractive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Task_2_ProgrammingExercises/src/NauticalMilesInteractive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="39" column="9" selection-start-line="16" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task_2_ProgrammingExercises/src/QuartsToGallonsInteractive.java">
+    <entry file="file://$PROJECT_DIR$/Task_2_ProgrammingExercises/src/MinuteConversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="178">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
