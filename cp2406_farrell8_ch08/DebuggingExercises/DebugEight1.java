@@ -12,7 +12,7 @@ public class DebugEight1
         char[] okayCodes = {'A','C','T','H'};
         StringBuffer prompt = new StringBuffer("Enter shipping code for this delivery\nValid codes are: ");
 
-        for(int x = 0; x <= okayCodes.length; ++x){
+        for(int x = 0; x < okayCodes.length; ++x){
             prompt.append(okayCodes[x]);
             if(x == (okayCodes.length - 1))
                 prompt.append(", ");

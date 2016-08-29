@@ -7,10 +7,10 @@ public class DebugEight2
         int tot = 0;
         int x;
         for(x = 0; x < someNums.length; ++x) {
-            tot = someNums[someNums.length];
+            tot = someNums[x];
         }
-        System.out.println("Sum is tot");
-        System.out.println("Average is " + tot);
+        System.out.println("Sum is: " + tot);
+        System.out.println("Average is " + tot/someNums.length);
 
     }
 }

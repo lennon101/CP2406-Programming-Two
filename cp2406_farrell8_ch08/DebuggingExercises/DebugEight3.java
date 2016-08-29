@@ -28,8 +28,8 @@ public class DebugEight3
         if(fp == 99) {
             JOptionPane.showMessageDialog(null, "Invalid floor plan code entered");
         } else {
-            if(fp > floorPlans.length) {
-                fp = fp - floorPlans.length;
+            if(fp > pricesInThousands.length-1) {
+                fp = fp - pricesInThousands.length;
             }
             JOptionPane.showMessageDialog(null, "Model " +
                     plan + " is priced at only $" +

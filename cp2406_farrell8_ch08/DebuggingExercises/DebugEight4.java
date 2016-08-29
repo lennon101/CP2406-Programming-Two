@@ -9,7 +9,7 @@ public class DebugEight4
         String array[] = new String[100];
         String entry;
         final String STOP = "XXX";
-        StringBuffer message = new StringBuffer("The words in reverse order are\n");
+        StringBuffer message = new StringBuffer("The words in reverse order are: \n");
 
         entry = JOptionPane.showInputDialog(null, "Enter any word\n" + "Enter " + STOP + " when you want to stop");
 
@@ -19,7 +19,7 @@ public class DebugEight4
             entry = JOptionPane.showInputDialog(null, "Enter another word\n" + "Enter " + STOP + " when you want to stop");
         }
 
-        for(y = 0; y <array.length; ++y);{
+        for (y = x-1; y>=0 ; --y){
             message.append(array[y]);
             message.append("\n");
         }
