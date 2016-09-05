@@ -1,4 +1,4 @@
-public final class HideAndGoSeekPlayer
+public class HideAndGoSeekPlayer
 {
    private int count;
    public void displayRules()
