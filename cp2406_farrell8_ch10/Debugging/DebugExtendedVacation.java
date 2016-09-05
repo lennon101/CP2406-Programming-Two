@@ -1,7 +1,7 @@
-public class DebugExtendedVacation extends DebugVacation
-{
-   public DebugVacation()
-   {
-      days = 30;
-   }
+public class DebugExtendedVacation extends DebugVacation {
+
+    public DebugExtendedVacation() {
+        this.days = 30;
+    }
+
 }
