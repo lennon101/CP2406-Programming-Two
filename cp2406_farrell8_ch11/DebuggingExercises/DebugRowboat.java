@@ -1,15 +1,17 @@
-public class DebugRowboat extends DebugBoat
-{
-   public DebugRowboat()
-   {
+public class DebugRowboat extends DebugBoat {
+   public DebugRowboat() {
       super("row");
+      setPassengers();
+      setPower();
    }
-   public void setPassengers()
-   {
+
+   @Override
+   public void setPassengers() {
       super.passengers = 2;
    }
-   public void setPower()
-   {
+
+   @Override
+   public void setPower() {
       super.power = "oars";
    }
 }
